@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #eee;
+        }
+        header {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    height: 150px;
+    color: #eee;
+    padding: 10px 0;
+    text-align: center;
+
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        nav a {
+            color: #eee;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: #eee;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.8em;
+        }
+        .hero {
+            background: rgba(0, 0, 0, 0.5) url('valorant-hero.jpg') no-repeat center center;
+            background-size: cover;
+            height: 10px;
+        }
+        .section {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+        h2 {
+            border-bottom: 2px solid #555;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .hero {
+                height: 200px;
+            }
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Valorant</h1>
+   
+    <nav>
+        <a href="#about">About</a>
+        <a href="#characters">Characters</a>
+        <a href="#roles">Roles</a>
+        <a href="#maps">Maps</a>
+        <a href="#strategy">Strategy Guides</a>
+        <a href="#weapons">Weapons</a>
+        <a href="#news">News</a>
+        <a href="#tips">Tips</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <div class="hero">
+        <!-- Hero section background image, no text -->
+    </div>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Valorant</h2>
+            <p>Valorant is a free-to-play first-person shooter developed and published by Riot Games. The game was officially released on June 2, 2020, and has quickly become a popular choice in the competitive gaming scene.</p>
+        </section>
+
+        <section id="characters" class="section">
+            <h2>Characters</h2>
+            <p>Valorant features a diverse roster of agents, each with unique abilities. Here is the complete list of agents:</p>
+            <ul>
+            <li><strong>Jett</strong> - Agile and aggressive with abilities to enhance mobility and execute high-risk plays.
+                    <ul>
+                        <li><strong>Cloudburst:</strong> Deploys a brief vision-blocking cloud.</li>
+                        <li><strong>Updraft:</strong> Allows Jett to jump higher for better positioning.</li>
+                        <li><strong>Tailwind:</strong> Dashes in the direction of her choice, useful for quick escapes or repositioning.</li>
+                        <li><strong>Blade Storm:</strong> Equips Jett with a set of throwing knives that deal critical damage on headshots.</li>
+                    </ul>
+                </li>
+            <li><strong>Phoenix</strong> - Fire-based duelist with self-healing abilities and high mobility.
+                    <ul>
+                        <li><strong>Blaze:</strong> Creates a wall of fire that damages enemies and heals Phoenix if he stands in it.</li>
+                        <li><strong>Curveball:</strong> Throws a flashbang that curves around corners.</li>
+                        <li><strong>Hot Hands:</strong> Throws a fireball that damages enemies and heals Phoenix.</li>
+                        <li><strong>Run It Back:</strong> Marks Phoenix’s location. If he dies or activates this ability again, he respawns at the marked location.</li>
+                    </ul>
+                </li>
+            <li><strong>Yoru</strong> - A stealthy duelist who excels at deception and misdirection.
+                    <ul>
+                        <li><strong>Fakeout:</strong> Deploys a decoy that mimics Yoru's footsteps.</li>
+                        <li><strong>Blindside:</strong> Throws a flashbang that blinds enemies.</li>
+                        <li><strong>Gatecrash:</strong> Teleports Yoru to a marked location.</li>
+                        <li><strong>Dimensional Drift:</strong> Enter a parallel dimension, making him invisible and invulnerable.</li>
+                    </ul>
+                </li>
+            <li><strong>Neon</strong> - Fast-paced duelist with high mobility and electric abilities.
+                    <ul>
+                        <li><strong>High Voltage:</strong> Deploys a burst of electricity to damage and slow enemies.</li>
+                        <li><strong>Relay Bolt:</strong> Throws a bolt that explodes in a chain lightning effect.</li>
+                        <li><strong>Speed Boost:</strong> Increases movement speed significantly for a short duration.</li>
+                        <li><strong>Overdrive:</strong> Activates a high-speed dash that deals damage to enemies on contact.</li>
+                    </ul>
+                </li>
+            <li><strong>Raze</strong> - Explosive duelist with abilities designed for area control and high damage.
+                    <ul>
+                        <li><strong>Blast Pack:</strong> Throws a satchel charge that deals damage on explosion and can be used to reposition.</li>
+                        <li><strong>Paint Shells:</strong> Throws a cluster grenade that deals damage over a large area.</li>
+                        <li><strong>Boom Bot:</strong> Deploys a robot that seeks out enemies and explodes on contact.</li>
+                        <li><strong>Showstopper:</strong> Equips Raze with a powerful rocket launcher that deals massive area damage.</li>
+                    </ul>
+                </li>
+            <li><strong>Chamber</strong> - A duelist with a focus on precision and tactical superiority.
+                    <ul>
+                        <li><strong>Trademark:</strong> Deploys a trap that slows and reveals enemies.</li>
+                        <li><strong>Headhunter:</strong> Equips a pistol with precision aiming abilities.</li>
+                        <li><strong>Rendezvous:</strong> Teleports Chamber to a marked location.</li>
+                        <li><strong>Tour de Force:</strong> Equips a powerful sniper rifle that kills enemies with a single shot and creates a zone that slows down enemies.</li>
+                    </ul>
+                </li>
+            </ul>
+            <li><strong>Sova</strong> - Skilled at gathering information and disrupting enemy strategies.
+                <ul>
+                    <li><strong>Owl Drone:</strong> Deploys a drone that can scout and mark enemies.</li>
+                    <li><strong>Shock Bolt:</strong> Fires an arrow that explodes into a burst of electric damage.</li>
+                    <li><strong>Recon Bolt:</strong> Deploys an arrow that reveals enemies in its line of sight.</li>
+                    <li><strong>Hunter’s Fury:</strong> Fires a long-range energy beam that deals damage and reveals enemies.</li>
+                </ul>
+            </li>
+            <li><strong>Breach</strong> - Uses area-of-effect abilities to disrupt and incapacitate enemies.
+                <ul>
+                    <li><strong>Aftershock:</strong> Deploys an explosive charge through walls that damages and disrupts enemies.</li>
+                    <li><strong>Flashpoint:</strong> Throws a charge that blinds enemies in its line of sight.</li>
+                    <li><strong>Fault Line:</strong> Sends out a seismic blast that disorients and slows enemies.</li>
+                    <li><strong>Rolling Thunder:</strong> Sends out a shockwave that knocks up and disorients enemies.</li>
+                </ul>
+            </li>
+            <li><strong>Skye</strong> - A versatile initiator with abilities focused on healing and area control.
+                <ul>
+                    <li><strong>Regrowth:</strong> Heals allies over time within a certain range.</li>
+                    <li><strong>Trailblazer:</strong> Deploys a creature that can be controlled to flash and disorient enemies.</li>
+                    <li><strong>Guiding Light:</strong> Throws a bird that can be transformed into a flashbang.</li>
+                    <li><strong>Seekers:</strong> Sends out seekers that track and reveal enemies.</li>
+                </ul>
+            </li>
+            <li><strong>KAY/O</strong> - Provides utility and disruption with a focus on combat support.
+                <ul>
+                    <li><strong>FRAG/ment:</strong> Throws a grenade that fragments into multiple smaller grenades.</li>
+                    <li><strong>FLASH/drive:</strong> Throws a flashbang that can be used to blind enemies.</li>
+                    <li><strong>FRAG/drive:</strong> Throws a grenade that can be used to cause damage over time.</li>
+                    <li><strong>NULL/cmd:</strong> Sends out an EMP burst that disables enemy abilities and deals damage over time.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><strong>Sage</strong> - Focused on healing and area denial.
+                <ul>
+                    <li><strong>Barrier Orb:</strong> Deploys a large wall that blocks vision and can be used to fortify positions.</li>
+                    <li><strong>Slow Orb:</strong> Deploys a sphere that slows down enemies who walk through it.</li>
+                    <li><strong>Healing Orb:</strong> Heals allies over time within its radius.</li>
+                    <li><strong>Resurrection:</strong> Revives a fallen ally with full health.</li>
+                </ul>
+            </li>
+            <li><strong>Killjoy</strong> - Uses gadgets to control and secure areas.
+                <ul>
+                    <li><strong>Nanoswarm:</strong> Deploys a grenade that explodes into a swarm of nanobots dealing damage.</li>
+                    <li><strong>Alarmbot:</strong> Deploys a bot that detects and explodes when enemies are nearby.</li>
+                    <li><strong>Turret:</strong> Deploys a turret that shoots at enemies in its line of sight.</li>
+                    <li><strong>Lockdown:</strong> Deploys a device that emits a pulse, slowing and disorienting enemies within its range.</li>
+                </ul>
+            </li>
+            <li><strong>Cypher</strong> - Focuses on gathering intelligence and controlling enemy movement.
+                <ul>
+                    <li><strong>Trapwire:</strong> Deploys a wire that slows and damages enemies who trigger it.</li>
+                    <li><strong>Cyber Cage:</strong> Deploys a cage that blocks vision and slows enemies who enter it.</li>
+                    <li><strong>Spycam:</strong> Deploys a camera that can be remotely controlled to scout and reveal enemies.</li>
+                    <li><strong>Neural Theft:</strong> Reveals the location of all remaining enemies by extracting information from a dead enemy's body.</li>
+                </ul>
+            </li>
+            <li><strong>Fade</strong> - Utilizes fear and disorientation to control the battlefield.
+                <ul>
+                    <li><strong>Haunt:</strong> Deploys a ghost that reveals and disorients enemies.</li>
+                    <li><strong>Seize:</strong> Throws a sphere that slows and damages enemies.</li>
+                    <li><strong>Fright:</strong> Creates a field that causes fear and hinders enemy movement.</li>
+                    <li><strong>Reckoning:</strong> Reveals and terrorizes enemies within a large area.</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><strong>Omen</strong> - Utilizes smoke and teleportation to manipulate the battlefield.
+                <ul>
+                    <li><strong>Shrouded Step:</strong> Teleports Omen to a nearby location.</li>
+                    <li><strong>Dark Cover:</strong> Deploys a smoke screen that obscures vision and can be adjusted in size and duration.</li>
+                    <li><strong>Paranoia:</strong> Sends out a shadowy projectile that blinds and damages enemies in its path.</li>
+                    <li><strong>Ultimate:</strong> Reveals enemy locations on the map for a short duration.</li>
+                </ul>
+            </li>
+            <li><strong>Viper</strong> - Uses poison and smoke to control and choke points.
+                <ul>
+                    <li><strong>Snake Bite:</strong> Deploys a poison cloud that damages and debilitates enemies.</li>
+                    <li><strong>Cloudburst:</strong> Creates a cloud of smoke that obscures vision and slows down enemies.</li>
+                    <li><strong>Poison Cloud:</strong> Creates a toxic screen that damages and reveals enemies.</li>
+                    <li><strong>Viper’s Pit:</strong> Creates a large cloud of poison that obscures vision and damages enemies.</li>
+                </ul>
+            </li>
+            <li><strong>Astra</strong> - Manipulates the battlefield with stars that can be activated for various effects.
+                <ul>
+                    <li><strong>Stars:</strong> Deploys stars that can be activated for smokes, gravity wells, and more.</li>
+                    <li><strong>Nova Pulse:</strong> Creates a gravity well that pulls enemies toward the center and disorients them.</li>
+                    <li><strong>Gravity Well:</strong> Deploys a star that creates a vortex, slowing and pulling enemies.</li>
+                    <li><strong>Astral Form:</strong> Allows Astra to reposition and view the battlefield from an overhead perspective.</li>
+                </ul>
+            </li>
+            <li><strong>Harbor</strong> - Controls the battlefield with water-based abilities.
+                <ul>
+                    <li><strong>Glimpse:</strong> Creates a water barrier that blocks vision and slows enemies.</li>
+                    <li><strong>Flood:</strong> Sends out a wave of water that damages and slows enemies.</li>
+                    <li><strong>Current:</strong> Deploys a tidal wave that pushes enemies back and deals damage.</li>
+                    <li><strong>Deluge:</strong> Creates a large area of water that obscures vision and slows enemies.</li>
+                </ul>
+            </li>
+            <li><strong>Iso</strong> - Uses ice-based abilities to control the battlefield.
+                <ul>
+                    <li><strong>Frostbite:</strong> Creates an area of ice that slows and damages enemies.</li>
+                    <li><strong>Ice Wall:</strong> Deploys a large ice wall that blocks vision and movement.</li>
+                    <li><strong>Glacier:</strong> Creates an ice dome that provides cover and slows enemies.</li>
+                    <li><strong>Arctic Storm:</strong> Unleashes a storm of ice shards that deal damage and slow enemies.</li>
+                </ul>
+            </li>
+            <li><strong>Clove</strong> - Uses plant-based abilities to control and obstruct the battlefield.
+                <ul>
+                    <li><strong>Vine Trap:</strong> Deploys a trap that ensnares and damages enemies.</li>
+                    <li><strong>Bloom:</strong> Creates a zone of growth that heals allies and damages enemies.</li>
+                    <li><strong>Thorn:</strong> Sends out thorns that deal damage and slow enemies.</li>
+                    <li><strong>Nature's Wrath:</strong> Creates a large area of vegetation that slows and damages enemies.</li>
+                </ul>
+            </li>
+        </ul>
+        </section>
+
+        <section id="roles" class="section">
+            <h2>Agent Roles</h2>
+            <p>Agents in Valorant are categorized into four main roles, each fulfilling different strategic purposes in the game:</p>
+            <ul>
+                <li><strong>Duelists:</strong> Aggressive agents designed to excel in combat and lead the charge. Examples: Jett, Phoenix.</li>
+                <li><strong>Initiators:</strong> Agents that create opportunities for their team by disrupting the enemy or gathering information. Examples: Sova, Breach.</li>
+                <li><strong>Sentinels:</strong> Defensive agents who provide support and protection for their team, often excelling in holding positions and securing areas. Examples: Sage, Killjoy.</li>
+                <li><strong>Controllers:</strong> Agents that manipulate the battlefield with abilities that control vision and space, often used to execute strategies and manage enemy movement. Examples: Omen, Viper.</li>
+            </ul>
+        </section>
+
+        <section id="maps" class="section">
+            <h2>Maps</h2>
+            <p>Valorant features several maps, each with unique layouts and strategies. Here are some of the main maps:</p>
+            <ul>
+                <li><strong>Binds:</strong> A map with teleportation portals and tight corners.</li>
+                <li><strong>Haven:</strong> Features three bomb sites and an open layout.</li>
+                <li><strong>Split:</strong> Known for its verticality and tight chokepoints.</li>
+                <li><strong>Ascent:</strong> A map with a central open area and multiple sightlines.</li>
+                <li><strong>Fracture:</strong> Introduces a unique central split and complex terrain.</li>
+            </ul>
+        </section>
+
+        <section id="strategy" class="section">
+            <h2>Strategy Guides</h2>
+            <p>Effective strategies can turn the tide of a game. Here are some key strategies:</p>
+            <ul>
+                <li><strong>Communication:</strong> Coordinate with your team to execute plans and share information.</li>
+                <li><strong>Site Control:</strong> Take control of key sites and use your abilities to gain an advantage.</li>
+                <li><strong>Map Knowledge:</strong> Learn the layout of each map to effectively plan your moves and counter the enemy.</li>
+                <li><strong>Utility Usage:</strong> Use your agent's abilities strategically to disrupt the enemy and support your team.</li>
+            </ul>
+        </section>
+
+        <section id="weapons" class="section">
+            <h2>Weapons</h2>
+            <p>Valorant offers a variety of weapons, each with its own characteristics. Here's an overview of the different types of weapons:</p>
+            <h3>Rifles</h3>
+            <ul>
+                <li><strong>Vandal:</strong> High damage per shot, reliable for headshots. Ideal for mid-range combat. (Damage: 160 to the head, 40 to the body, Fire Rate: 9.25 shots/sec)</li>
+                <li><strong>Phantom:</strong> Lower damage per shot compared to the Vandal but has a higher fire rate and less recoil. (Damage: 156 to the head, 39 to the body, Fire Rate: 11 shots/sec)</li>
+            </ul>
+            <h3>SMGs</h3>
+            <ul>
+                <li><strong>Stinger:</strong> High rate of fire with a smaller magazine size. Effective in close-range battles. (Damage: 65 to the head, 30 to the body, Fire Rate: 16.67 shots/sec)</li>
+                <li><strong>Spectre:</strong> Low recoil and high fire rate. Suitable for close to mid-range combat. (Damage: 68 to the head, 34 to the body, Fire Rate: 13 shots/sec)</li>
+            </ul>
+            <h3>Sniper Rifles</h3>
+            <ul>
+                <li><strong>Operator:</strong> One-shot kill to the chest and head. High damage but has a slow rate of fire and movement penalty. (Damage: 202 to the head, 255 to the body, Fire Rate: 0.5 shots/sec)</li>
+                <li><strong>Marshal:</strong> Lever-action sniper with high damage per shot. Ideal for long-range engagements. (Damage: 202 to the head, 101 to the body, Fire Rate: 0.5 shots/sec)</li>
+            </ul>
+            <h3>Shotguns</h3>
+            <ul>
+                <li><strong>Shorty:</strong> Extremely close-range weapon with a small magazine. Useful in tight situations. (Damage: 240 to the head, 160 to the body, Fire Rate: 3 shots/sec)</li>
+                <li><strong>Judge:</strong> Fully automatic shotgun with a large spread. Effective for clearing tight spaces. (Damage: 25 per pellet to the head, 10 per pellet to the body, Fire Rate: 10 shots/sec)</li>
+            </ul>
+            <h3>Sidearms</h3>
+            <ul>
+                <li><strong>Classic:</strong> Default sidearm with basic functionality. Can be used in a pinch. (Damage: 65 to the head, 30 to the body, Fire Rate: 5 shots/sec)</li>
+                <li><strong>Ghost:</strong> Silenced sidearm with higher damage and accuracy. Effective for stealthy plays. (Damage: 75 to the head, 30 to the body, Fire Rate: 5.55 shots/sec)</li>
+                <li><strong>Sheriff:</strong> High damage sidearm with low magazine capacity. Powerful in skilled hands. (Damage: 202 to the head, 101 to the body, Fire Rate: 0.9 shots/sec)</li>
+            </ul>
+            <h3>Machine Guns</h3>
+            <ul>
+                <li><strong>Bulldog:</strong> A versatile rifle with a good balance between damage and fire rate. (Damage: 35 to the head, 24 to the body, Fire Rate: 8 shots/sec)</li>
+                <li><strong>Ares:</strong> Fully automatic machine gun with a large magazine and high fire rate. (Damage: 35 to the head, 25 to the body, Fire Rate: 10 shots/sec)</li>
+            </ul>
+            <h3>Others</h3>
+            <ul>
+                <li><strong>Odin:</strong> Heavy machine gun with a very high fire rate and large magazine. Ideal for suppressive fire. (Damage: 50 to the head, 35 to the body, Fire Rate: 15 shots/sec)</li>
+            </ul>
+        </section>
+
+        <section id="news" class="section">
+            <h2>Latest News</h2>
+            <p>Stay tuned for the latest updates, patch notes, and news from the Valorant community!</p>
+        </section>
+
+        <section id="tips" class="section">
+            <h2>Tips and Tricks</h2>
+            <p>Here are some tips to improve your gameplay in Valorant:</p>
+            <ul>
+                <li>Practice regularly to improve your aim and reflexes.</li>
+                <li>Communicate with your team to coordinate strategies.</li>
+                <li>Learn the maps to understand choke points and hiding spots.</li>
+                <li>Experiment with different agents to find the one that suits your playstyle.</li>
+            </ul>
+        </section>
+
+        <section id="community" class="section">
+            <h2>Community Highlights</h2>
+            <p>Check out some of the best content created by the Valorant community:</p>
+            <ul>
+                <li><a href="#">Fan Art</a></li>
+                <li><a href="#">Top Plays</a></li>
+                <li><a href="#">Guides and Tutorials</a></li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions, feel free to reach out to us at <a href="mailto:info@valorantfansite.com">info@valorantfansite.com</a>.</p>
+            <p>Valorant download: <a href="https://playvalorant.com/en-sg/">https://playvalorant.com/en-sg/</a></p>
+        </section>
+
+        <section id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <p>Stay informed about upcoming Valorant events and tournaments:</p>
+            <ul>
+                <li>Valorant Champions Tour - August 2024</li>
+                <li>Regional Qualifiers - September 2024</li>
+                <li>Community Tournaments - Monthly</li>
+            </ul>
+        </section>
+
+        <section id="reviews" class="section">
+            <h2>Game Reviews</h2>
+            <p>Read what critics and players are saying about Valorant:</p>
+            <ul>
+                <li><a href="#">IGN Review</a></li>
+                <li><a href="#">GameSpot Review</a></li>
+                <li><a href="#">Metacritic Scores</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Valorant Fan Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
